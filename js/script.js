@@ -106,4 +106,66 @@ while (num < 11) {
 
 console.log(arrayOfNumbers); */
 
+/* const arr = [3, 5, 8, 16, 20, 23, 50];
+const result = [];
 
+let numberElements = arr.length,
+    ind = 0;
+
+while (ind < numberElements) {
+    result[ind] = arr[ind];
+    ind++;
+}
+
+console.log(result);
+
+
+const data = [5, 10, 'Shopping', 20, 'Homework'];
+
+let numberElements = data.length,
+    ind = 0;
+
+while (ind < numberElements) {
+    if (typeof(data[ind]) === typeof('string')) {
+        data[ind] = data[ind] + ' - done';
+    } else {
+        data[ind] = data[ind] * 2;
+    }
+    ind++;
+}
+
+console.log(data);
+
+
+const data = [5, 10, 'Shopping', 20, 'Homework'];
+
+let numberElements = data.length,
+    ind = numberElements,
+    newData = [];
+
+while (ind > 0) {
+    newData[numberElements - ind] = data[ind - 1];
+    ind--;
+}
+
+while (ind < numberElements) {
+    data[ind] = newData[ind];
+    ind++;
+}
+
+console.log(data);
+
+const lines = 5;
+let result = '';
+
+for (let i = 0; i <= lines; i++) {
+    for (let j = 0; j < lines - i; j++) {
+        result += " ";
+    }
+    for (let j = 0; j < 2 * i + 1; j++) {
+        result += "*";
+    }
+    result += "\n";
+}
+
+console.log(result) */
