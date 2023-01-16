@@ -170,3 +170,98 @@ for (let i = 0; i <= lines; i++) {
 
 console.log(result) */
 
+// const personalPlanPeter = {
+//     name: "Peter",
+//     age: "29",
+//     skills: {
+//         languages: ['ru', 'eng'],
+//         programmingLangs: {
+//             js: '20%',
+//             php: '10%'
+//         },
+//         exp: '1 month',
+//         showAgeAndLangs: function(plan) {
+//             const {age} = plan;
+//             const {languages} = plan.skills;
+//             let str = `Мне ${age} и я владею языками: `;
+    
+//             languages.forEach(function(lang) {
+//                 str += `${lang.toUpperCase()} `;
+//             });
+    
+//             return str;
+//         }
+//     }
+// }
+
+// function showExperience(plan) {
+//     const {exp} = plan.skills;
+//     return exp;
+
+// }
+
+// showExperience(personalPlanPeter);
+
+// function showProgrammingLangs(plan) {
+//     const {programmingLangs} = plan.skills;
+//     let lang = '';
+//     for (key in programmingLangs){
+//         lang += `Язык ${key} изучен на ${programmingLangs[key]}`;
+//     }
+//     return lang;
+// }
+
+// showProgrammingLangs(personalPlanPeter);
+
+// const family = ['Peter', 'Ann', 'Alex', 'Linda'];
+
+// function showFamily(arr) {
+//     let i = 0,
+//         str = '';
+        
+//         if (arr.length === 0) {
+//             str = "Семья пуста";
+//         } else {
+//             str = 'Семья состоит из:';
+//             while (i < arr.length) {
+//                 str = str + ' ' + arr[i];
+//                 i++;
+//             }
+            
+//         }
+//     return str; 
+// }
+
+// showFamily(family);
+
+// const favoriteCities = ['liSBon', 'ROME', 'miLan', 'Dublin'];
+
+// function standardizeStrings(arr) {
+//     let i = 0,
+//         str = '';
+//     while (i < arr.length) {
+//         str = arr[i].toLowerCase();
+//         i++;
+//         console.log(str);
+//     }
+    
+// }
+
+// standardizeStrings(favoriteCities);
+
+// const someString = 'This is some strange string';
+
+// function reverse(str) {
+
+//     if (typeof(str) !== 'string') {
+//         // console.log('Ошибка!');
+//         return 'Ошибка!';
+//     } else {
+//         return str.split('').reverse().join('');
+//     }
+// }
+
+// reverse(someString);
+
+
+
