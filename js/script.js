@@ -319,3 +319,15 @@ function transferWaitors(data) {
 
 transferWaitors(restorantData);
  */
+
+function factorial(num) {
+    if (typeof(num) != 'number' || Number.isInteger(num) != true) {
+        return 'Введенная переменная не является целым числом! Введите целое число!';
+    } 
+
+    if (num >= 1) {
+        return num * factorial(num - 1);
+    } else {
+        return 1;
+    }
+}
